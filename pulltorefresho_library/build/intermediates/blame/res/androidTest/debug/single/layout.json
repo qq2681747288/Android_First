@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "O:\\andriod\\task\\Android_First\\pulltorefresho_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "O:\\andriod\\task\\Android_First\\pulltorefresho_library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "O:\\andriod\\task\\Android_First\\pulltorefresho_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "O:\\andriod\\task\\Android_First\\pulltorefresho_library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    }
+]

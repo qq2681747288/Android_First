@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/kaice_image_view"
+        android:background="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="游戏名字"
+        android:layout_toRightOf="@id/kaice_image_view"
+        android:id="@+id/kaice_gname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="运营商"
+        android:layout_toRightOf="@id/kaice_image_view"
+        android:layout_below="@id/kaice_gname"
+        android:id="@+id/kaice_operators"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间"
+        android:layout_toRightOf="@id/kaice_image_view"
+        android:layout_below="@id/kaice_operators"
+        android:id="@+id/kaice_addtime"/>
+    <Button
+        android:layout_width="57dp"
+        android:layout_height="37dp"
+        android:id="@+id/kaice_button"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:background="#33CC66"
+        android:text="查看"
+        />
+
+</RelativeLayout>

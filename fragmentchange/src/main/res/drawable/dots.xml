@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 状态有效   （未选中状态）  -->
+    <item android:state_enabled="true" >
+        <shape android:shape="oval">
+        <size android:height="20dp" android:width="20dp"/>
+            <solid android:color="#452300"/>
+        </shape>
+    </item>
+
+    <!--状态无效 （选中状态）-->
+    <item android:state_enabled="false">
+        <shape android:shape="oval">
+            <size android:height="20dp" android:width="20dp"/>
+            <solid android:color="#dddddd"/>
+        </shape>
+    </item>
+</selector>

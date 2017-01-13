@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SlidingPaneLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sliding_pane"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<!--侧滑菜单-->
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_launcher"
+        android:id="@+id/ce_hua">
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <LinearLayout
+                android:id="@+id/dot_layout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:orientation="horizontal" />
+
+        </FrameLayout>
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/libao_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <!--<ListView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/libao_list_view"/>-->
+
+
+    </LinearLayout>
+</android.support.v4.widget.SlidingPaneLayout>
